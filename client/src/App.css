@@ -1,0 +1,45 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body  {
+  background-color: #222;
+  padding: 20px;
+}
+
+.question-form {
+  width: 95%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+}
+
+.question-form input[type="text"] {
+  width: 90%;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #8e8ea0;
+}
+
+input[type="submit"] {
+  height: 50px;
+  border: none;
+  width: 10%;
+}
+
+.container {
+  background-color: black;
+}
+
+.answer-area {
+  background: #343541;
+    min-height: 70vh;
+    padding: 15px;
+    color: white;
+    font-family: roboto;
+    white-space: pre-wrap;
+}
